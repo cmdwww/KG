@@ -6,7 +6,7 @@ using namespace std;
 
 void main() {
 	srand(time(NULL));
-	ofstream File;
+	ofstream File;//version2
 	char WORDS[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 	File.open("Data.txt");
 	int k,i = 0;
